@@ -113,7 +113,7 @@ public class TunerConstants {
     private static final int kFrontLeftDriveMotorId = 4;
     private static final int kFrontLeftSteerMotorId = 3;
     private static final int kFrontLeftEncoderId = 12;
-    private static final double kFrontLeftEncoderOffset = 0.382080078125;
+    private static final double kFrontLeftEncoderOffset = 0.376708984375;
     private static final boolean kFrontLeftSteerInvert = true;
 
     private static final double kFrontLeftXPosInches = 10;
@@ -123,7 +123,7 @@ public class TunerConstants {
     private static final int kFrontRightDriveMotorId = 6;
     private static final int kFrontRightSteerMotorId = 5;
     private static final int kFrontRightEncoderId = 13;
-    private static final double kFrontRightEncoderOffset = 0.413330078125;
+    private static final double kFrontRightEncoderOffset = -0.09375;
     private static final boolean kFrontRightSteerInvert = true;
 
     private static final double kFrontRightXPosInches = 10;
@@ -133,7 +133,7 @@ public class TunerConstants {
     private static final int kBackLeftDriveMotorId = 2;
     private static final int kBackLeftSteerMotorId = 1;
     private static final int kBackLeftEncoderId = 11;
-    private static final double kBackLeftEncoderOffset = 0.27587890625;
+    private static final double kBackLeftEncoderOffset = 0.264892578125;
     private static final boolean kBackLeftSteerInvert = true;
 
     private static final double kBackLeftXPosInches = -10;
@@ -143,7 +143,7 @@ public class TunerConstants {
     private static final int kBackRightDriveMotorId = 7;
     private static final int kBackRightSteerMotorId = 8;
     private static final int kBackRightEncoderId = 14;
-    private static final double kBackRightEncoderOffset = 0.29931640625;
+    private static final double kBackRightEncoderOffset = 0.307373046875;
     private static final boolean kBackRightSteerInvert =true;
 
     private static final double kBackRightXPosInches = -10;
@@ -165,4 +165,4 @@ public class TunerConstants {
 
     public static final CommandSwerveDrivetrain DriveTrain = new CommandSwerveDrivetrain(DrivetrainConstants, FrontLeft,
             FrontRight, BackLeft, BackRight);
-}
+} 
